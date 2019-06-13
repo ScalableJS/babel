@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir dist",
-    "watch": "babel src -d dist -w"
+    "watch": "babel src -d dist --presets es2015 -w"
   },
   "author": "",
   "license": "ISC",
